@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="11dp">
+
+    <TextView
+        android:id="@+id/textSer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="Nature"
+        android:textSize="50sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textAblableWalpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="36 wallpaper available"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerSearchResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
