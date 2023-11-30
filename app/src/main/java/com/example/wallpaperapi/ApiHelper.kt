@@ -24,11 +24,8 @@ interface ApiHelper {
         @Header("Authorization") Authorization : String,
         @Query("query") query: String,
         @Query("per_page") per_page : Int,
-
-        ) : Call<WallpaperModal>
-
-
-
+        @Query("color") color : String
+    ) : Call<WallpaperModal>
 
     companion object{
 
